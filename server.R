@@ -1,3 +1,6 @@
+library(leaflet)
+library(shiny)
+library(LAB5C)
 
 shinyServer(function(input, output) {
   output$map <- renderLeaflet({
